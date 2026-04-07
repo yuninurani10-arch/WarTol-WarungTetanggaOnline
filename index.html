@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WarTol Warung Tetangga Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="logowartol.png">
+
+</head>
+<body>
+    <h1>WarTol - Warung Tetangga Online</h1>
+
+    <div>
+        <h2>Tambah Warung</h2>
+        <input type="text" id="WarungNama" placeholder ="Nama Warung">
+        <input type="text" id="WarungAlamat" placeholder="Alamat">
+        <input type="text" id="WarungPemilik" placeholder="Pemilik">
+        <button id="TambahWarung">Tambah</button>
+    </div>
+    <hr>
+
+    <div>
+        <h2>Tambah Produk</h2>
+        <select id="ProdukWarungId"></select>
+        <input type="text" id="ProdukNama" placeholder="Nama Produk">
+        <input type="number" id="ProdukHarga" placeholder="Harga">
+        <input type="number" id="ProdukStok" placeholder="stok">
+        <button id="TambahProduk">Tambah</button>
+    </div>
+    <hr>
+
+    <h2>Daftar Warung</h2>
+    <ul id="ListWarung"></ul>
+
+    <h2>Daftar Produk</h2>
+    <ul id="ListProduk"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
